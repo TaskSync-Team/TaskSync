@@ -3,7 +3,8 @@ import { db } from "./db.js";
 
 const router = express.Router();
 
-router.get("/", async (req, res) => {
+router.get("/", async (req, res) => 
+  {
   const [rows] = await db.execute("SELECT * FROM tasks");
   res.json(rows);
 });

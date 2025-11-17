@@ -3,6 +3,7 @@ import app from "../app.js";
 import { db } from "../db.js";
 
 beforeAll(async () => { await db.execute("DELETE FROM tasks"); });
+
 afterAll(async () => { await db.end(); });
 
 describe("Tasks API", () => {

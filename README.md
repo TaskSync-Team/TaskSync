@@ -1,7 +1,3 @@
-Com base nos arquivos do projeto, aqui está uma sugestão de `README.md` para o aplicativo TaskSync.
-
------
-
 # TaskSync
 
 TaskSync é um aplicativo simples de lista de tarefas (To-Do) que permite aos usuários criar e visualizar suas tarefas.
